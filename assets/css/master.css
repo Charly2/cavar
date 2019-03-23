@@ -30,3 +30,26 @@
 @import 'color_rojo.css';
 /*@import 'color.css';*/
 @import 'responsive.css';
+
+
+
+
+.modal {
+    display: block;
+    visibility: hidden;
+
+}
+.modal.show{
+    visibility: visible;
+}
+
+.lSSlideWrapper img{
+    width: 100%;
+}
+
+.lSGallery li{
+    opacity: .5;
+}
+.lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover{
+    opacity: 1;
+}

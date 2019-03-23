@@ -16,8 +16,10 @@
     <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1">
     <link href="assets/plugins/switcher/css/color2.css" rel="alternate stylesheet" title="color2">
     <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3">
+    <link rel='stylesheet' href='http://sachinchoolur.github.io/lightslider/dist/css/lightslider.css'>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!--[if lt IE 9 ]>
+
     <script src="/assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script>
     <meta content="no" http-equiv="imagetoolbar">
     <![endif]-->

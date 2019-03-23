@@ -3,15 +3,28 @@ $(document).ready(function() {
     "use strict";
 
 
-/////////////////////////////////////////////////////////////////
-// SETTING
-/////////////////////////////////////////////////////////////////
-    
-    
-     
-/////////////////////////////////////////////////////////////////
-// Preloader
-/////////////////////////////////////////////////////////////////
+
+
+
+    $('.gal_a').lightSlider({
+        vertical:false,
+        verticalHeight:295,
+        vThumbWidth:150,
+        gallery: true,
+        autoWidth: false,
+        adaptiveHeight:false,
+        item: 1,
+        loop:true,
+        slideMargin: 0,
+
+    });
+
+    $('.abremodal').click(function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $('#MODAL_A').modal('show');
+
+    });
 
 
     var $preloader = $('#page-preloader'),
@@ -21,9 +34,6 @@ $(document).ready(function() {
     
     
 
-/////////////////////////////////////
-//  Scroll Animation
-/////////////////////////////////////
 
 
 if ($('.scrollreveal').length) {
@@ -37,18 +47,11 @@ if ($('.scrollreveal').length) {
   }
 
 
-/////////////////////////////////////////////////////////////////
-// Scale images
-/////////////////////////////////////////////////////////////////
 
   if ($('.img-scale').length) {
     $(function () { objectFitImages('.img-scale') });
   }
 
-
-/////////////////////////////////////
-//  Chars Start
-/////////////////////////////////////
 
 
 if ($('body').length) {
@@ -97,9 +100,6 @@ function CharsStart() {
 
 
 
-/////////////////////////////////////
-//  Loader blocks
-/////////////////////////////////////
 
     $( ".js-scroll-next" ).on( "click", function() {
 
@@ -114,9 +114,7 @@ function CharsStart() {
     });
 
 
-/////////////////////////////////////
-//  SCROLL UP
-/////////////////////////////////////
+
 
   $('.js-scroll-top').on( 'click', function() {
     $('body,html').animate({scrollTop:0},800);
@@ -124,9 +122,6 @@ function CharsStart() {
 
 
 
-/////////////////////////////////////
-//  Zoom Images
-/////////////////////////////////////
 
   if ($('.js-zoom-gallery').length) {
       $('.js-zoom-gallery').each(function() { // the containers for all your galleries
@@ -195,9 +190,6 @@ function CharsStart() {
       });
   }
 
-////////////////////////////////////////////
-// ISOTOPE FILTER
-///////////////////////////////////////////
 
 
   if ($('.b-isotope').length) {
@@ -234,10 +226,6 @@ function CharsStart() {
 
 
 
-/////////////////////////////////////
-// Select customization
-/////////////////////////////////////
-
   if ($('.selectpicker').length) {
 
     $('.selectpicker').selectpicker();
@@ -245,9 +233,7 @@ function CharsStart() {
 
 
 
-////////////////////////////////////////////
-// Main slider
-///////////////////////////////////////////
+
 
 
   if ($('#main-slider').length) {
@@ -270,18 +256,14 @@ function CharsStart() {
   }
 
 
-////////////////////////////////////////////
-// Sliders
-///////////////////////////////////////////
+
 
   if ($('.js-slider').length) {
     $('.js-slider').slick();
   }
 
 
-/////////////////////////////////////////////////////////////////
-// Slider numbers
-/////////////////////////////////////////////////////////////////
+
 
 
   if ($('#filterPrice').length) {
@@ -314,9 +296,6 @@ function CharsStart() {
   }
 
 
-/////////////////////////////////////
-//  Video player
-/////////////////////////////////////
 
 
 if ($('.player').length) {
@@ -324,9 +303,7 @@ if ($('.player').length) {
 }
 
 
-////////////////////////////////////////////
-// View catalog
-///////////////////////////////////////////
+
 
 
   $('.btns-switch__item').on( 'click', function() {

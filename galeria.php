@@ -49,7 +49,7 @@
             </div>
             <ul class="b-isotope-grid grid list-unstyled row">
                 <li class="grid-sizer col-lg-4 col-md-6"></li>
-                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web honda">
+                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web honda abremodal">
                     <div class="b-goods-f b-goods-f_dark">
                         <div class="b-goods-f__media">
                             <a href="#"><img class="b-goods-f__img img-scale" src="assets/media/content/b-goods/360x260/1.jpg" alt="foto" /></a>
@@ -66,7 +66,7 @@
                     </div>
                     <!-- end .b-goods-->
                 </li>
-                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web bmw">
+                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web bmw abremodal">
                     <div class="b-goods-f b-goods-f_dark">
                         <div class="b-goods-f__media">
                             <a href="#"><img class="b-goods-f__img img-scale" src="assets/media/content/b-goods/360x260/2.jpg" alt="foto" /></a>
@@ -83,7 +83,7 @@
                     </div>
                     <!-- end .b-goods-->
                 </li>
-                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web honda">
+                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web honda abremodal">
                     <div class="b-goods-f b-goods-f_dark">
                         <div class="b-goods-f__media">
                             <a href="#"><img class="b-goods-f__img img-scale" src="assets/media/content/b-goods/360x260/3.jpg" alt="foto" /></a>
@@ -100,7 +100,7 @@
                     </div>
                     <!-- end .b-goods-->
                 </li>
-                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web rover">
+                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web rover abremodal">
                     <div class="b-goods-f b-goods-f_dark">
                         <div class="b-goods-f__media">
                             <a href="#"><img class="b-goods-f__img img-scale" src="assets/media/content/b-goods/360x260/4.jpg" alt="foto" /></a>
@@ -117,7 +117,7 @@
                     </div>
                     <!-- end .b-goods-->
                 </li>
-                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web mercedes">
+                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web mercedes abremodal">
                     <div class="b-goods-f b-goods-f_dark">
                         <div class="b-goods-f__media">
                             <a href="#"><img class="b-goods-f__img img-scale" src="assets/media/content/b-goods/360x260/5.jpg" alt="foto" /></a>
@@ -133,7 +133,7 @@
                     </div>
                     <!-- end .b-goods-->
                 </li>
-                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web bmw">
+                <li class="b-isotope-grid__item grid-item col-lg-4 col-md-6 web bmw abremodal">
                     <div class="b-goods-f b-goods-f_dark">
                         <div class="b-goods-f__media">
                             <a href="#"><img class="b-goods-f__img img-scale" src="assets/media/content/b-goods/360x260/6.jpg" alt="foto" /></a>
@@ -151,6 +151,55 @@
             </ul>
         </div>
     </section>
+
+
+    <div class="modal fade " id="MODAL_A" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="padding-right: 17px; ">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Lexus RC 3500</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+
+
+                    <div class="co">
+                        <ul class="gal_a">
+                            <li data-thumb="assets/media/content/b-goods/360x260/1.jpg">
+                                <img src="assets/media/content/b-goods/360x260/1.jpg" />
+                            </li>
+                            <li data-thumb="assets/media/content/b-goods/360x260/2.jpg">
+                                <img src="assets/media/content/b-goods/360x260/2.jpg" />
+                            </li>
+                            <li data-thumb="assets/media/content/b-goods/360x260/3.jpg">
+                                <img src="assets/media/content/b-goods/360x260/3.jpg" />
+                            </li>
+                            <li data-thumb="assets/media/content/b-goods/360x260/4.jpg">
+                                <img src="assets/media/content/b-goods/360x260/4.jpg" />
+                            </li>
+                            <li data-thumb="assets/media/content/b-goods/360x260/5.jpg">
+                                <img src="assets/media/content/b-goods/360x260/5.jpg" />
+                            </li>
+                            <li data-thumb="assets/media/content/b-goods/360x260/6.jpg">
+                                <img src="assets/media/content/b-goods/360x260/6.jpg" />
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ducimus eaque recusandae. Aut beatae dolores eligendi et eum facilis in, iste laborum nisi non porro quae quia quod, ut veritatis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 
 
 <?php include_once 'fotter.php'?>
